@@ -6,7 +6,8 @@ const {setupInput}  = require('./input');
 
 console.log("Connecting ...");
 connect();
-setupInput();
+// setupInput();
+setupInput(connect());
 
 //OLD CODE
 // const net = require("net");
