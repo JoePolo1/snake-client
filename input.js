@@ -27,6 +27,18 @@ if (key === 's') {
 if (key === 'd') {
   connection.write("Move: right")
 };
+
+//If P is pressed, console log Deluxe Po Ta To to the console
+if (key === 'p') {
+  connection.write("Say: Po Ta Toes")
+};
+
+//If P is pressed, console log Deluxe Po Ta To to the console
+if (key === 't') {
+ connection.write("Say: you just got SNEKD")
+};
+
+
 };
 
 // setup interface to handle user input from stdin
